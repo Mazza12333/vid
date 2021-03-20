@@ -1,5 +1,7 @@
 import React from 'react'
 import Header from '../components/header'
+import Carousel from '../components/Carousel'
+import AppCard from '../components/AppCard'
 
 
 const index = () => {
@@ -7,6 +9,8 @@ const index = () => {
         <div>
             <Header />
             <h1>Hola mundo</h1>
+            <Carousel />
+            <AppCard />
         </div>
     )
 }
